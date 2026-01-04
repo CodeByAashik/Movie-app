@@ -31,10 +31,6 @@ export default function MovieCard({ movie }) {
           {movie.Title}
         </h2>
 
-        <p className="text-sm text-gray-500 italic">
-          ★ 4.5/10
-        </p>
-
         <div className="flex justify-between text-sm text-gray-600">
           <p><span className="font-medium text-gray-900">Type:</span> {movie.Type}</p>
           <p><span className="font-medium text-gray-900">Year:</span> {movie.Year}</p>
